@@ -1,0 +1,5 @@
+[
+  {"id":"AUD-L1","designation":"Auditoire L1","capacite":200},
+  {"id":"AUD-L2","designation":"Auditoire L2","capacite":150},
+  {"id":"SALLE-MACH","designation":"Salle Machine","capacite":50}
+]

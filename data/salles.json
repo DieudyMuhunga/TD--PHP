@@ -1,5 +1,8 @@
 [
-  {"id":"AUD-L1","designation":"Auditoire L1","capacite":200},
-  {"id":"AUD-L2","designation":"Auditoire L2","capacite":150},
-  {"id":"SALLE-MACH","designation":"Salle Machine","capacite":50}
+  {"id":"AUD-L1","designation":"Auditoire principal - L1","capacite":200},
+  {"id":"AUD-L2","designation":"Auditoire principal - L2","capacite":150},
+  {"id":"AUD-L3","desidngation":"Auditoire principal - L3","capacite":120},
+  {"id":"AUD-L4","desidngation":"Auditoire principal - L4","capacite":100}
+  {"id":"SALLE-MACH","desidngation":"Salle machine","capacite":50},
+  {"id":"SALLE-MACH","designation":"Salle machine","capacite":60}
 ]

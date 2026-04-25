@@ -1,5 +1,5 @@
 [
-  {"id":"C1","intitule":"Reseaux","volume":4,"type":"tronc","promotion":"L2"},
-  {"id":"C2","intitule":"Base de donnees","volume":4,"type":"tronc","promotion":"L3"},
+  {"id":"C1","intitule":"Reseaux","volume":4,"type":"tronc commun","promotion":"L2"},
+  {"id":"C2","intitule":"Base de donnees","volume":4,"type":"tronc commun","promotion":"L3"},
   {"id":"C3","intitule":"IA","volume":4,"type":"option","promotion":"L3"}
-]
+],

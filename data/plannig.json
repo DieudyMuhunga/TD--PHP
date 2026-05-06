@@ -1,0 +1,56 @@
+[
+    {
+        "id": "plan_69fb7d9275319",
+        "creneau": "0-08-12",
+        "id_salle": "AUD-L1",
+        "id_cours": "CIRC-LOG",
+        "id_groupe": "groupe_L1",
+        "effectif": 140,
+        "date_creation": "2026-05-06 19:42:42"
+    },
+    {
+        "id": "plan_69fb7d927680a",
+        "creneau": "0-12-16",
+        "id_salle": "AUD-L1",
+        "id_cours": "RESEAUX",
+        "id_groupe": "groupe_L1",
+        "effectif": 140,
+        "date_creation": "2026-05-06 19:42:42"
+    },
+    {
+        "id": "plan_69fb7d9277793",
+        "creneau": "0-08-12",
+        "id_salle": "AUD-L2",
+        "id_cours": "SE",
+        "id_groupe": "groupe_L2",
+        "effectif": 110,
+        "date_creation": "2026-05-06 19:42:42"
+    },
+    {
+        "id": "plan_69fb7d92786d3",
+        "creneau": "0-12-16",
+        "id_salle": "AUD-L2",
+        "id_cours": "BD",
+        "id_groupe": "groupe_L2",
+        "effectif": 110,
+        "date_creation": "2026-05-06 19:42:42"
+    },
+    {
+        "id": "plan_69fb7d9279196",
+        "creneau": "0-08-12",
+        "id_salle": "AUD-L3",
+        "id_cours": "SEC-INFO",
+        "id_groupe": "groupe_SEC-INFO",
+        "effectif": 25,
+        "date_creation": "2026-05-06 19:42:42"
+    },
+    {
+        "id": "plan_69fb7d9279d59",
+        "creneau": "0-12-16",
+        "id_salle": "AUD-L3",
+        "id_cours": "FREEDOM",
+        "id_groupe": "groupe_L3",
+        "effectif": 95,
+        "date_creation": "2026-05-06 19:42:42"
+    }
+]

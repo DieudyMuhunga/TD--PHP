@@ -1,5 +1,82 @@
 [
-  {"id":"C1","intitule":"Reseaux","volume":4,"type":"tronc commun","promotion":"L2"},
-  {"id":"C2","intitule":"Base de donnees","volume":4,"type":"tronc commun","promotion":"L3"},
-  {"id":"C3","intitule":"IA","volume":4,"type":"option","promotion":"L3"}
+  {
+    "id": "CIRC-LOG",
+    "intitule": "Circuits Logiques",
+    "volume_horaire": 4,
+    "type": "tronc_commun",
+    "promotion_ou_option": "L1",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "RESEAUX",
+    "intitule": "Réseaux Informatiques",
+    "volume_horaire": 4,
+    "type": "tronc_commun",
+    "promotion_ou_option": "L1",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "SE",
+    "intitule": "Systèmes d'Exploitation",
+    "volume_horaire": 4,
+    "type": "tronc_commun",
+    "promotion_ou_option": "L2",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "BD",
+    "intitule": "Bases de Données",
+    "volume_horaire": 4,
+    "type": "tronc_commun",
+    "promotion_ou_option": "L2",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "FREEDOM",
+    "intitule": "Freedom & Logiciels Libres",
+    "volume_horaire": 2,
+    "type": "tronc_commun",
+    "promotion_ou_option": "L3",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "SEC-INFO",
+    "intitule": "Sécurité Informatique",
+    "volume_horaire": 4,
+    "type": "option",
+    "promotion_ou_option": "SEC-INFO",
+    "date_creation": "2025-04-24 08:00:00"
+  }, 
+  {
+    "id": "IA",
+    "intitule": "Intelligence Artificielle",
+    "volume_horaire": 4,
+    "type": "option",
+    "promotion_ou_option": "IA",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "ROBOT",
+    "intitule": "Robotique",
+    "volume_horaire": 4,
+    "type": "option",
+    "promotion_ou_option": "ROBOT",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "DATA-SCI",
+    "intitule": "Data Sciences",
+    "volume_horaire": 4,
+    "type": "option",
+    "promotion_ou_option": "DATA-SCI",
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "SE-EMB",
+    "intitule": "Systèmes Embarqués",
+    "volume_horaire": 4,
+    "type": "option",
+    "promotion_ou_option": "SE",
+    "date_creation": "2025-04-24 08:00:00"
+  }
 ]

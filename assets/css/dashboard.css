@@ -1,0 +1,60 @@
+/* ============================================================================
+   ASSETS/CSS/DASHBOARD.CSS - Styles Dashboard
+   ============================================================================ */
+
+.card.bg-primary,
+.card.bg-success,
+.card.bg-info,
+.card.bg-warning {
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card.bg-primary:hover,
+.card.bg-success:hover,
+.card.bg-info:hover,
+.card.bg-warning:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card.text-white .card-title {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+.card.text-white h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 800;
+}
+
+.card.text-white .card-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 1.25rem;
+}
+
+.card.text-white .card-footer a {
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.card.text-white .card-footer a:hover {
+    opacity: 0.8;
+}
+
+/* Icons dans le dashboard */
+.fa-door-open,
+.fa-users,
+.fa-book,
+.fa-graduation-cap {
+    transition: all 0.3s ease;
+}
+
+.card:hover .fa-door-open,
+.card:hover .fa-users,
+.card:hover .fa-book,
+.card:hover .fa-graduation-cap {
+    transform: scale(1.1) rotate(5deg);
+}

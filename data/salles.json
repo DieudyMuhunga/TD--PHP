@@ -1,8 +1,38 @@
 [
-  {"id":"AUD-L1","designation":"Auditoire principal - L1","capacite":200},
-  {"id":"AUD-L2","designation":"Auditoire principal - L2","capacite":150},
-  {"id":"AUD-L3","desidngation":"Auditoire principal - L3","capacite":120},
-  {"id":"AUD-L4","desidngation":"Auditoire principal - L4","capacite":100},
-  {"id":"SALLE-MACH","desidngation":"Salle machine","capacite":50},
-  {"id":"SALLE-MACH","designation":"Salle machine","capacite":60}
+  {
+    "id": "AUD-L1",
+    "designation": "Auditoire principal – Licence 1",
+    "capacite": 150,
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "AUD-L2",
+    "designation": "Auditoire principal – Licence 2",
+    "capacite": 120,
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "AUD-L3",
+    "designation": "Auditoire principal – Licence 3",
+    "capacite": 100,
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "AUD-L4",
+    "designation": "Auditoire principal – Licence 4",
+    "capacite": 80,
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "SALLE-MACH",
+    "designation": "Salle de machines (TP informatiques)",
+    "capacite": 40,
+    "date_creation": "2025-04-24 08:00:00"
+  },
+  {
+    "id": "SALLE-MGT",
+    "designation": "Salle de management & marketing",
+    "capacite": 60,
+    "date_creation": "2025-04-24 08:00:00"
+  }
 ]

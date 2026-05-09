@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> 
                             <i class="fas fa-list"></i> Planning
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -50,6 +50,11 @@
                             <li><a class="dropdown-item" href="?page=rapports">Rapports</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="auth/logout.php">
+                            <i class="fas fa-sign-out-alt"></i> Déconnexion
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -57,3 +62,8 @@
 
     <main class="py-4">
         <div class="container-fluid">
+            <!-- Page content -->
+        </div>
+    </main>
+</body>
+</html>

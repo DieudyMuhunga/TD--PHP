@@ -1,9 +1,6 @@
 <?php
-
-// Système de connexion en PHP procédural
-
 // Chemin du fichier JSON
-$file = '../utilisateur.json';
+$file = '../data/utilisateur.json';
 
 // Vérifier si le fichier JSON existe
 if (!file_exists($file)) {

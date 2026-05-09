@@ -47,6 +47,69 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ?>
 
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        width: 350px;
+        text-align: center;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        font-size: 16px;
+    }
+
+    input:focus {
+        border-bottom: 1px solid #2d89ef;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 25px;
+        padding: 10px;
+        background-color: #2d89ef;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #1b6fc2;
+    }
+</style>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -55,15 +118,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Connexion</title>
 </head>
 <body>
-    <h1>Connexion</h1>
-    <form method="POST" action="">
-        <label for="username">Nom d'utilisateur :</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Mot de passe :</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Se connecter</button>
-    </form>
+    <div class="card">
+        <h1>SGA</h1>
+        <form method="POST" action="">
+            <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required><br>
+            <input type="password" id="password" name="password" placeholder="Mot de passe" required><br><br>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
 </body>
 </html>

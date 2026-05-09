@@ -59,11 +59,5 @@
             </div>
         </div>
     </nav>
-
-    <main class="py-4">
-        <div class="container-fluid">
-            <!-- Page content -->
-        </div>
-    </main>
 </body>
 </html>

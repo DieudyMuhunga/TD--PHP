@@ -1,7 +1,4 @@
 <?php
-
-// Système de déconnexion en PHP procédural
-
 // Démarrer la session
 session_start();
 

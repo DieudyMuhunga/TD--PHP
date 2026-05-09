@@ -1,7 +1,5 @@
 <?php
-// ============================================================================
 // FONCTIONS DE VALIDATION DES CONTRAINTES MÉTIER
-// ============================================================================
 
 /**
  * Vérifie si une salle est disponible à un créneau

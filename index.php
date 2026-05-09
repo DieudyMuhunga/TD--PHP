@@ -1,5 +1,6 @@
 <?php
-session_start();
+// Inclure le fichier de vérification de session
+require_once 'auth/session.php';
 
 // Inclusion des configurations et fonctions
 require_once 'config/constants.php';
@@ -13,9 +14,6 @@ require_once 'src/functions/promotions.php';
 require_once 'src/functions/cours.php';
 require_once 'src/functions/options.php';
 require_once 'src/functions/planning.php';
-
-// Inclure le fichier de vérification de session
-require_once 'auth/session.php';
 
 // Déterminer la page à afficher
 $page = isset($_GET['page']) ? sanitize_input($_GET['page']) : 'dashboard';

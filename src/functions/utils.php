@@ -1,7 +1,7 @@
 <?php
-// ============================================================================
+// Inclure le fichier de vérification de session
+
 // FONCTIONS UTILITAIRES
-// ============================================================================
 
 /**
  * Nettoie et valide une chaîne d'entrée utilisateur
